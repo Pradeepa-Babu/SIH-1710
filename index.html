@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Railway Station Navigation System</title>
+</head>
+<body>
+    <header>
+        <!-- Using the main railway image as a banner based on your folder structure -->
+        <img src="images/railway.jpg" alt="Main Railway Station View" width="800">
+        <h1>Railway Station Navigation System</h1>
+        <p>A comprehensive navigation solution to assist passengers in locating facilities and destinations within the station premises.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Search Destination</h2>
+            <form action="#" method="get">
+                <label for="destination">Where do you want to go? (e.g., ticket counters, platforms, restrooms, food courts):</label><br>
+                <input type="text" id="destination" name="destination" required>
+                <button type="submit">Get Real-Time Directions</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Station Facilities & Navigation</h2>
+            <p>Select your desired facility to see real-time step-by-step navigation.</p>
+
+            <article>
+                <h3>Platforms</h3>
+                <!-- Referencing the platform image from your images folder -->
+                <img src="images/platform.jpg" alt="Railway Station Platform" width="400">
+                <p>Get direct routes to your departure or arrival platforms.</p>
+                <button type="button">Navigate to Platforms</button>
+            </article>
+
+            <article>
+                <h3>Food Courts</h3>
+                <!-- Referencing the food image from your images folder -->
+                <img src="images/food.jpg" alt="Station Food Court" width="400">
+                <p>Find the nearest dining areas and food stalls.</p>
+                <button type="button">Navigate to Food Courts</button>
+            </article>
+
+            <article>
+                <h3>Restrooms</h3>
+                <!-- Referencing the restroom image from your images folder -->
+                <img src="images/restroom.jpg" alt="Station Restrooms" width="400">
+                <p>Locate nearby washrooms and accessible toilets.</p>
+                <button type="button">Navigate to Restrooms</button>
+            </article>
+        </section>
+
+        <section>
+            <h2>Accessibility Options</h2>
+            <p>Accommodating the diverse needs of all passengers.</p>
+            <form action="#" method="post">
+                <input type="checkbox" id="voice-guidance" name="voice_guidance">
+                <label for="voice-guidance">Enable voice-guided navigation for visually impaired passengers</label><br><br>
+                <button type="submit">Apply Accessibility Settings</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Integrated with existing railway apps and services for a seamless user experience.</p>
+    </footer>
+</body>
+</html>
